@@ -9,3 +9,4 @@ accounts-password
 iron:router
 fourseven:scss@=1.0.0
 coffeescript
+sacha:spin
