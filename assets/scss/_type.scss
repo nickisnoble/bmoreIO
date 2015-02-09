@@ -7,8 +7,8 @@ html{
 body{
   font-size:100%; 
   line-height:1.5;
-  padding: kunit(1);
   color: $black;
+  font-weight: 100;
 }
 
 %headings{
@@ -51,8 +51,6 @@ p{
 a{
   color: $highlight;
   font-weight: bold;
-  text-decoration: none;
-  border-bottom: 2px solid $gray;
 }
 
 hr{
