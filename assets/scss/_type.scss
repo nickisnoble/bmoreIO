@@ -1,0 +1,73 @@
+// Type
+// ======
+
+html{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+body{
+  font-size:100%; 
+  line-height:1.5;
+  padding: kunit(1);
+  color: $black;
+}
+
+%headings{
+/*   background: rgba(255,0,0,0.1); */
+}
+
+h1{
+  @extend %headings;
+  @include ktype(6,1,1);
+}
+h2{
+  @extend %headings;
+  @include ktype(5,1,1);
+}
+h3{
+  @extend %headings;
+  @include ktype(4,1,1);
+}
+h4{
+  @extend %headings;
+  @include ktype(3,1,1);
+}
+h5{
+  @extend %headings;
+  @include ktype(1,1,1);
+}
+h6{
+  @extend %headings;
+  @include ktype(0,1,1);
+}
+
+.mega{
+  @include ktype(7,1,1);
+}
+
+p{
+  @include ktype(0,1,0);
+}
+
+a{
+  color: $highlight;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid $gray;
+}
+
+hr{
+  height: 0;
+  border: 0;
+  border-bottom: 4px solid $gray;
+  padding-top: kunit(1);
+  margin: -2px 0;
+}
+
+// Media
+// ========
+
+img{
+  width: 100%;
+  height: auto;
+  margin-top: kunit(1);
+}
