@@ -1,0 +1,10 @@
+{
+  "enableAutoprefixer": true,
+  "autoprefixerOptions": {
+      "browsers": ["> 5%", "BlackBerry", "OperaMini"],
+      "cascade": true
+  },
+  "includePaths": [
+    "assets/scss",
+	],
+}
